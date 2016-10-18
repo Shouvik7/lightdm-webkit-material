@@ -9,12 +9,11 @@
     </head>
     <body ng-app="webkitMaterial" ng-style="backgroundStyle">
         <div class="ng-cloak" id="wrapper" layout="column" layout-align="center stretch">
-            <md-button id="help-button" class="md-icon-button" aria-label="Help" ng-click="$root.card = 'help'"><i class="fa fa-question-circle"></i></md-button>
             <main layout="column" layout-align="center center" flex ng-switch on="$root.card">
                 <!-- Login card -->
                 <md-card id="login" ng-class="animation" ng-style="animationDuration" ng-controller="loginController" ng-switch-default>
                     <md-card-content>
-                        <div class="header">Welcome back!</div>
+                        <div class="header">Welcome Back, Commander !!</div>
                         <div class="content">
                             <img class="profile-img" ng-src="{{getUserImage(user)}}" fallback-src="assets/ui/avatar.png"/> <!-- Replace src with {{getUserImage(user)}} for actual .face support -->
                             <form layout="column" layout-align="center stretch" ng-submit="signIn()" name="loginForm">
