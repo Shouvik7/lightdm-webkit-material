@@ -36,7 +36,7 @@ I created this for use on Arch Linux, so it only has the basic features of:
 
 ### How to install
 
-[Check our wiki](https://github.com/artur9010/lightdm-webkit-material/wiki/Installation)
+[Check our wiki](https://github.com/Shouvik7/lightdm-webkit-material/wiki/Installation)
 
 ### Updating
 1. In the terminal, `cd` to `/usr/share/lightdm-webkit/themes/lightdm-webkit-material/`
